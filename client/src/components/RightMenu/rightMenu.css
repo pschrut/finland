@@ -1,0 +1,51 @@
+#right__menu {
+  position: relative;
+  right: -7px;
+  background: #fcfcfc;
+  width: 0px;
+  top: -10px;
+  height: 45.6em;
+}
+
+.transition {
+  transition: width 0.050s linear;
+}
+
+.right__menu_hidden {
+  width: 0px;
+  border: none;
+}
+
+.right__menu_show {
+  width: 80em !important;
+  border: 1px solid #ded9d9;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid #ded9d9;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  cursor: default;
+}
+
+#header h1 {
+  position: relative;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+
+#header i {
+  margin-right: 15px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+#content {
+  padding: 10px;
+  height: 100%;
+}

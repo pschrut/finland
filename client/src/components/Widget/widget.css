@@ -1,0 +1,55 @@
+#widget {
+  width: 100%;
+  margin: 5px;
+  margin-top: 0px;
+  border: 1px solid #ded9d9;
+  height: 400px;
+  color: #787878;
+  cursor: default;
+  overflow: hidden;
+  position: relative;
+}
+
+#widget__title {
+  display: block;
+  font-weight: bold;
+  height: 25px;
+  padding-left: 5px;
+  font-size: 15px;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #ded9d9;
+}
+
+#widget__title i {
+  margin-right: 5px;
+  color: #19B3D3;
+}
+
+#widget__content {
+  overflow-y: auto;
+}
+
+.no__footer {
+  height: 100%;
+}
+
+.with__footer {
+  height: 340px;
+}
+
+.add__icon {
+  font-size: 12px;
+  position: relative;
+  float: right;
+  top: 6px;
+  left: -3px;
+  cursor: pointer;
+}
+
+#widget__footer {
+  position: absolute;
+  height: 100%;
+  border-top: 1px solid #ded9d9;
+  width: 100%;
+  font-size: 0.9em;
+}

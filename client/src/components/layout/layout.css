@@ -1,0 +1,56 @@
+.top_bar {
+  position: fixed;
+  width: 100%;
+  background: #fcfcfc;
+  height: 20px;
+  margin-left: 60px;
+  border-bottom: 1px solid #ded9d9;
+}
+
+.top_bar h3 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.left__menu {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 60px;
+  flex-direction: column;
+  background: #2f323a;
+}
+
+.left__menu a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  width: 100%;
+  line-height: 65px;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.left-menu__selected {
+  background: #19B3D3;
+}
+
+.left__menu a:hover {
+  background: #19B3D3;
+  color: white;
+}
+
+.workspace {
+  position: fixed;
+  margin-left: 65px;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+}

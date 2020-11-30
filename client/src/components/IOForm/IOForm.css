@@ -1,0 +1,9 @@
+#IOForm form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.fields-row {
+  display: flex;
+}

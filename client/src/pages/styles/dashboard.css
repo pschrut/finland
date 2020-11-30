@@ -1,0 +1,11 @@
+#dashboard {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+#dashboard p {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid #ded9d9;
+}
