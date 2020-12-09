@@ -12,6 +12,10 @@ export function getQueryParam(param) {
 }
 
 export function sumTableAmounts(table) {
+  if (table.length == 0) {
+    return [];
+  }
+
   let arrayOfAmounts = [];
   table.forEach(info => {
     let amountStringToNumber = Number(info.amount.replace(",","."));
